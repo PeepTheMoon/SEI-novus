@@ -57,6 +57,9 @@ chart.appendChild(barChart);
 const barRow = document.createElement('tr');
 
 for (let i = 0; i < chartJson.employeeData.length; i++) {
+  //sort employee data based on age
+  chartJson.employeeData.sort((a, b) => (b.age - a.age))
+
   barRow.setAttribute('class', 'bars');
 
   const prefix = chartJson.prefix || '';
