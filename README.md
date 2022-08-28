@@ -9,7 +9,7 @@ I have outlined my understanding of the requirements in a wire frame, shown belo
 
 ### Limitations
 
-This project is written in vanilla Javascript only.  I had issues getting the bar chart oriented horizontally so it is vertical instead.
+This project is written in vanilla Javascript only.  I had issues getting the bar chart oriented horizontally.
 
 I ran out of time to implement a dropdown to choose between age and salary metrics (task 7).
 
